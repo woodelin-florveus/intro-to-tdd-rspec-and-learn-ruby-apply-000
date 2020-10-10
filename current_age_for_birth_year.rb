@@ -1,5 +1,5 @@
-def current_age_for_birth_year(1984)
-  # take in the user's birth year
-  # subtract that from the current year
-  # return the user's age
+def current_age_for_birth_year(birth_year)
+
+  current_year = 2020 - birth_year
+  return current_year
 end
